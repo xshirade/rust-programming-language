@@ -23,6 +23,8 @@ Learning ["Rust Programming Language"](https://doc.rust-lang.org/book/)
 
 ## Notes
 
+The following pictures are from ["Rust Programming Language"](https://doc.rust-lang.org/book/).
+
 ### CH04-02: References
 
 ```rust
