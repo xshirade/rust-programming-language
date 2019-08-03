@@ -84,6 +84,33 @@ fn main() {
     {
         let refernce_to_nothing = danlge();
     }
+
+    {
+        let mut s = String::from("hello  world");
+        let word = first_word(&s);
+        // s.clear(); // error, word is immutable ref.
+        println!("{}", word);
+    }
+
+    {
+        let my_string = String::from("hello world");
+        let word = first_word(&my_string[..]);
+
+        let my_string_literal = "Hello, World!";
+        let word = first_word(&my_string_literal[..]);
+        // my_string_literal is already in type of &str
+        let word = first_word(my_string_literal);
+    }
+}
+
+fn first_word(s: &str) -> &str {
+    let bytes = s.as_bytes();
+    for (i, &item) in bytes.iter().enumerate() {
+        if item == b' ' {
+            return &s[0..i];
+        }
+    }
+    &s[..]
 }
 
 fn danlge() -> String {
