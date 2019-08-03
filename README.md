@@ -20,6 +20,16 @@ Learning ["Rust Programming Language"](https://doc.rust-lang.org/book/)
 | CH09 - Error Handling                                              | 2019/08/dd |         |
 | CH10 - Generic Types, Traits, and Lifetimes                        | 2019/08/dd |         |
 | CH11 - Writing Automated Tests                                     | 2019/08/dd |         |
+| CH12 - An I/O Projects: Building a Command Line Program            | 2019/08/dd |         |
+| CH13 - Functional Language Features: Iterators and Closures        | 2019/08/dd |         |
+| CH14 - More abour Cargo and Crates.io                              | 2019/08/dd |         |
+| CH15 - Smart Pointers                                              | 2019/08/dd |         |
+| CH16 - Fearless Concurrency                                        | 2019/08/dd |         |
+| CH17 - Object Oriented Programming Features of Rust                | 2019/08/dd |         |
+| CH18 - Patterns and Matching                                       | 2019/08/dd |         |
+| CH19 - Advanced Features                                           | 2019/08/dd |         |
+| CH20 - Final Project: Building a Multithreaded Web Server          | 2019/08/dd |         |
+| CH21 - Appendix                                                    |     -      |         |
 
 ## Notes
 
