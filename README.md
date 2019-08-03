@@ -1,6 +1,6 @@
 # Rust Programming Language
 
-Learning "Rust Programming Language" - https://doc.rust-lang.org/book/
+Learning ["Rust Programming Language"](https://doc.rust-lang.org/book/)
 
 ## Work Summary
 
