@@ -20,3 +20,33 @@ Learning ["Rust Programming Language"](https://doc.rust-lang.org/book/)
 | CH09 - Error Handling                                              | 2019/08/dd |         |
 | CH10 - Generic Types, Traits, and Lifetimes                        | 2019/08/dd |         |
 | CH11 - Writing Automated Tests                                     | 2019/08/dd |         |
+
+## Notes
+
+### CH04-02: References
+
+```rust
+fn main() {
+    let s1 = String::from("hello");
+    let len = calculate_length(&s1);
+    println!("The length of '{}' is {}.", s1, len);
+}
+
+fn calculate_length(s: &String) -> usize {
+    s.len()
+}
+```
+
+![references](./img/f_4_5.png)
+
+### CH04-03: Slices
+
+```rust
+fn main() {
+    let s = String::from("hello wolrd");
+    let hello = &s[..5];
+    let world = &s[6..];
+}
+```
+
+![slices](./img/f_4_6.png)
