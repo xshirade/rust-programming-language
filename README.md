@@ -16,7 +16,7 @@ Learning ["Rust Programming Language"](https://doc.rust-lang.org/book/)
 | CH05 - Using Structs to Structure Related Data                     | 2019/08/03 |         |
 | CH06 - Enums and Pattern Matching                                  | 2019/08/04 |         |
 | CH07 - Managing Growing Projects with Packages, Crates and Modules | 2019/08/04 |         |
-| CH08 - Common Collections                                          | 2019/08/dd |         |
+| CH08 - Common Collections                                          | 2019/08/05 |         |
 | CH09 - Error Handling                                              | 2019/08/dd |         |
 | CH10 - Generic Types, Traits, and Lifetimes                        | 2019/08/dd |         |
 | CH11 - Writing Automated Tests                                     | 2019/08/dd |         |
